@@ -13,117 +13,110 @@
 </head>
 
 <body>
+  <div class="border border-dark w-75 mx-auto mt-5 p-2">
+    <h1>Payment Form Example</h1>
 
-  <h1>Payment Form Example</h1>
+    <div class="row g-3 mb-3">
 
-  <div class="row g-3 mb-3">
+      <div class="col-sm-7">
+        <input type="text" class="form-control" placeholder="Credit Card #" aria-label="City">
+      </div>
 
-    <div class="col-sm-7">
-      <input type="text" class="form-control" placeholder="Credit Card #" aria-label="City">
+      <div class="col-sm">
+        <input type="text" class="form-control" placeholder="CVC#" aria-label="State">
+      </div>
+
+      <div class="col-sm">
+        <input type="text" class="form-control" placeholder="Amount" aria-label="Zip">
+      </div>
     </div>
 
-    <div class="col-sm">
-      <input type="text" class="form-control" placeholder="CVC#" aria-label="State">
-    </div>
-
-    <div class="col-sm">
-      <input type="text" class="form-control" placeholder="Amount" aria-label="Zip">
-    </div>
-  </div>
 
 
-  <div class="row g-3 mb-3">
+    <div class="row g-3 mb-3">
 
-    <div class="col">
-      <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-    </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+      </div>
 
-    <div class="col">
-      <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-    </div>
-
-  </div>
-
-
-  <div class="row g-3 mb-3">
-
-    <div class="col-sm-7">
-      <input type="text" class="form-control" placeholder="City" aria-label="City">
-    </div>
-
-    <div class="col-sm">
-      <input type="text" class="form-control" placeholder="State" aria-label="State">
-    </div>
-
-    <div class="col-sm">
-      <input type="text" class="form-control" placeholder="Zip" aria-label="Zip">
-    </div>
-
-  </div>
-
-
-  <div class="row">
-
-    <div class="col">
-
-      <h4>We accept:</h4>
-      <div class="row">
-        <div class="form-check col-sm-1"">
-          <input class=" form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-          <label class="form-check-label" for="flexRadioDefault1">
-            <i class="fa-brands fa-cc-visa"></i>
-          </label>
-        </div>
-
-
-        <div class="form-check col-sm-1">
-          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-          <label class="form-check-label" for="flexRadioDefault1">
-            <i class="fa-brands fa-cc-mastercard"></i>
-          </label>
-        </div>
-
-        <div class="form-check col-sm-1"">
-          <input class=" form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-          <label class="form-check-label" for="flexRadioDefault2">
-            <i class="fa-brands fa-cc-discover"></i>
-          </label>
-        </div>
-
-        <div class="form-check col-sm-1"">
-          <input class=" form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-          <label class="form-check-label" for="flexRadioDefault1">
-            <i class="fa-brands fa-cc-apple-pay"></i>
-          </label>
-        </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
       </div>
 
     </div>
 
-    <div class="col">
-      <h4>Messages:</h4>
-      <div class="form-floating">
-        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-          style="height: 100px"></textarea>
-        <label for="floatingTextarea2">Comments</label>
+
+
+    <div class="row g-3 mb-3">
+
+      <div class="col-sm-7">
+        <input type="text" class="form-control" placeholder="City" aria-label="City">
+      </div>
+
+      <div class="col-sm">
+        <input type="text" class="form-control" placeholder="State" aria-label="State">
+      </div>
+
+      <div class="col-sm">
+        <input type="text" class="form-control" placeholder="Zip" aria-label="Zip">
+      </div>
+
+    </div>
+
+
+
+    <div class="row ">
+
+      <div class="col">
+
+        <h4>We accept:</h4>
+        <div class="row ml-4">
+          <div class="form-check col-sm-1">
+            <input class=" form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              <i class="fa-brands fa-cc-visa"></i>
+            </label>
+          </div>
+
+
+
+          <div class="form-check col-sm-1">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              <i class="fa-brands fa-cc-mastercard"></i>
+            </label>
+          </div>
+
+          <div class="form-check col-sm-1">
+            <input class=" form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              <i class="fa-brands fa-cc-discover"></i>
+            </label>
+          </div>
+
+          <div class="form-check col-sm-1">
+            <input class=" form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              <i class="fa-brands fa-cc-apple-pay"></i>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>Messages:</h4>
+        <div class="form-floating">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+            style="height: 100px"></textarea>
+          <label for="floatingTextarea2">Comments</label>
+        </div>
       </div>
     </div>
 
-  </div>
-
-
-  <div class="row">
-
-    <div class="col-12">
+    <div class="d-flex float-end m-3">
       <button class="btn btn-primary" type="cancel">Cancel</button>
-    </div>
-
-    <div class="col-12">
       <button class="btn btn-primary" type="submit">Submit form</button>
     </div>
   </div>
-
-
 </body>
-
 </html>
